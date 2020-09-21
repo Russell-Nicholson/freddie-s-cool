@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@charset "utf-8";
+/* CSS Document */
+
+/* nav bar styleing */
+
+.topnav {
+	overflow: hidden;
+	background-color: #221D24;
+	top: 0px;
+}
+.topnav a {
+	position: relative;
+	font-family: 'Oswald', sans-serif;
+	font-size: 150%;
+	float: right;
+	display: block;
+	color: #f57D0B;
+	text-align: center;
+	padding: 30px 10px;
+	text-decoration: none;
+}
+.topnav a:hover {
+	position: relative;
+	background-color: #f57d0b;
+	color: black;
+}
+.navo {
+	padding-right: 8vw;
+}
+.active {
+	background-color: #014573;
+}
+.topnav .icon {
+	position: relative;
+	display: none;
+}
+.logo {
+	height: 90px;
+	padding-left: 8vw;
+}
+.topnav.responsive a {
+	float: none;
+	display: block;
+	text-align: left;
+}
+/* main text/content style */
+
+.main_content {
+	width: 70%;
+	margin: auto;
+}
+.photo_and_text {
+	width: 70%;
+	margin: auto;
+	color: black;
+	text-align: left;
+	font-size: 100%;
+	font-family: 'Oswald', sans-serif;
+	float: justify;
+}
+.photo_and_text img {
+	text-align: right;
+	float: right;
+}
+.MainHeader {
+	padding-left: 200px;
+	float: left;
+}
+/* parallax code */
+
+.parallax {
+	/* The image used */
+	background-image: url("/images/Warzone Background.jpg");
+	/* Full height */
+	height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax3 {
+	/* The image used */
+	background-image: url("/images/");
+	/* Full height */
+	height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax2 {
+	/* The image used */
+	background-image: url("images/school_sing.jpg");
+	/* Full height */
+	height: 200px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.parallax3 {
+	/* The image used */
+	background-image: url("images/side_view_athletics_mcindoe.JPG");
+	/* Full height */
+	height: 300px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.center_text {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	margin-left: 33%;
+}
+.left_img {
+	width: 800px;
+	float: right;
+}
+.outergallery {
+	padding-left: 8vw;
+}
+.gallery {
+	margin: auto;
+	border: 2px solid #ccc;
+	float: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.gallery:hover {
+	border: 2px solid #777;
+}
+.desc {
+	padding: 15px;
+	text-align: center;
+}
+.galleryvid {
+	width: 40.5vw;
+	transition: .2s;
+}
+.loadoutvid {
+	width: 650px;
+	transition: .2s;
+}
+.card {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 43%;
+	transition: 0.3s;
+}
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.cardmain {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+}
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+/* Add some padding inside the card container */
+
+.container {
+	padding: 2px 16px;
+}
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	transition: 0.1s;
+	text-align: left;
+	background-color: #221D24;
+	padding: 1%;
+	padding-left: 8vw;
+	height: 50px;
+}
+footer a {
+	font-size: 100%;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-decoration: none;
+}
+footer a:hover {
+	color: #A9A9A9;
+}
+footer p {
+	font-size: 100%;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	color: white;
+}
+
+footer img {
+	float: right;
+}
+footer img:hover {
+	opacity: 0.7;
+}
+table {
+	border-collapse: collapse;
+	margin: auto;
+	padding: 10px 0px;
+	width: 560px;
+	height: auto;
+	font-family: 'Oswald', sans-serif;
+}
+th {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	border-collapse: collapse;
+}
+td {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	border-collapse: collapse;
+}
+iframe {
+	margin-left: 35.2%;
+	margin-right: 13.8%;
+	padding-top: 2%;
+}
+@media screen and (max-width: 600px) {
+	.topnav a:not(:first-child) {
+		display: none;
+	}
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+	footer {
+		padding-left: 0px;
+		text-align: center;
+		transition: 0.5s;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.logo {
+		padding-left: 0px;
+	}
+	.galleryvid {
+		width: 80vw;
+	}
+	.gallery {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.navo {
+		padding-right: 0px;
+	}
+	footer {
+		padding-left: 0px;
+		text-align: center;
+		transition: 0.5s;
+	}
+}
+@media screen and (max-width: 600px) {
+	.topnav.responsive {
+		position: relative;
+	}
+	.topnav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+}
